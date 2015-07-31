@@ -14,6 +14,7 @@ class ProjectComponent < ActiveRecord::Base
 
   belongs_to :project
   has_many :project_component_images
-  #has_many :tools, through:
+  has_many :tool_usages
+  has_many :tools, through: :tool_usages
 
 end

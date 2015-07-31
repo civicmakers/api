@@ -2,7 +2,7 @@ class ProjectComponentSerializer < ActiveModel::Serializer
 
   attributes :name, :description, :images
 
-  #has_many :tools
+  has_many :tools
   belongs_to :project
 
   def images

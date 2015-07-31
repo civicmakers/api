@@ -3,6 +3,7 @@ class ToolSerializer < ActiveModel::Serializer
   attributes :name, :description, :url, :social_links
 
   belongs_to :profile
+  has_many :project_components
 
   def social_links
     {

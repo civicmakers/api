@@ -17,5 +17,7 @@
 class Tool < ActiveRecord::Base
 
   belongs_to :profile
+  has_many :tool_usages
+  has_many :project_components, through: :tool_usages
 
 end
