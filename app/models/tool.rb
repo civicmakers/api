@@ -11,7 +11,11 @@
 #  linkedin_url :string
 #  created_at   :datetime         not null
 #  updated_at   :datetime         not null
+#  profile_id   :integer
 #
 
 class Tool < ActiveRecord::Base
+
+  belongs_to :profile
+
 end
