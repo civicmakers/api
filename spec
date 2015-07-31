@@ -90,6 +90,7 @@ GET /projects
       "attributes": {
         "name": "JSON API paints my bikeshed!",
         "description": "JSON API paints my bikeshed!"
+        "url": "Some url"
         "images": [
           {
             "url": "https://www.google.com/image.jpg"
