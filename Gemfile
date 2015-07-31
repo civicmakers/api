@@ -14,6 +14,7 @@ gem 'active_model_serializers', '0.10.0.rc2'
 
 group :development do
   gem 'annotate'
+  gem 'awesome_print'
 end
 
 group :test do
