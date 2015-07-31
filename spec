@@ -60,13 +60,11 @@ GET /tools
         }
       },
       "relationships": {
-        "profiles": {
-          "data": [
-            {
-              "type": "profiles",
-              "id": "abc123"
-            }
-          ]
+        "profile": {
+          "data": {
+            "type": "profiles",
+            "id": "abc123"
+          }
         },
         "project_components": {
           data: [
@@ -112,13 +110,11 @@ GET /projects
             }
           ]
         },
-        "profiles": {
-          "data": [
-            {
-              "type": "profiles",
-              "id": "abc123"
-            }
-          ]
+        "profile": {
+          "data": {
+            "type": "profiles",
+            "id": "abc123"
+          }
         }
       }
     }
