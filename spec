@@ -21,7 +21,7 @@ GET /profiles
         }
       },
       "relationships": {
-        "system_owned_tools": {
+        "tools": {
           "data": [
             {
               "type": "tools",
@@ -60,7 +60,7 @@ GET /tools
         }
       },
       "relationships": {
-        "system_creator": {
+        "profiles": {
           "data": {
             "type": "profiles",
             "id": "abc123"
@@ -110,7 +110,7 @@ GET /projects
             }
           ]
         },
-        "creator": {
+        "profiles": {
           "data": {
             "type": "profiles",
             "id": "abc123"
