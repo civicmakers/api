@@ -1,16 +1,14 @@
 class ProjectComponentSerializer < ActiveModel::Serializer
 
-  attributes :name, :description#, :images
+  attributes :name, :description, :images
 
   #has_many :tools
   belongs_to :project
 
-  def social_links
-    {
-      facebook: object.facebook_url,
-      twitter: object.twitter_url,
-      linkedin: object.twitter_url
-    }
+  def images
+    object.project_component_images.map do |project_component_image|
+      { url: project_component_image.image_url }
+    end
   end
 
   def avatars
