@@ -2,7 +2,7 @@ class ProfileSerializer < ActiveModel::Serializer
 
   attributes :name, :description, :url, :social_links, :avatars
 
-  has_many :tools
+  has_many :tools, :projects
 
   def social_links
     {

@@ -17,5 +17,6 @@
 class Profile < ActiveRecord::Base
 
   has_many :tools
+  has_many :projects
 
 end
