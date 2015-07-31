@@ -12,9 +12,14 @@ gem 'pg'
 
 gem 'active_model_serializers', '0.10.0.rc2'
 
+gem 'rails_12factor'
+
+gem 'puma'
+
 group :development do
   gem 'annotate'
   gem 'awesome_print'
+  gem 'foreman'
 end
 
 group :test do
