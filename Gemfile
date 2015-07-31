@@ -12,6 +12,9 @@ gem 'pg'
 
 gem 'active_model_serializers', '0.10.0.rc2'
 
+group :development do
+  gem 'annotate'
+end
 
 group :test do
   gem 'rspec'
