@@ -3,6 +3,7 @@ class ProjectSerializer < ActiveModel::Serializer
   attributes :name, :description, :url, :avatars, :images
 
   belongs_to :profile
+  has_many :project_components
 
   def images
     object.project_images.map do |project_image|
