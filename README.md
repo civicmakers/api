@@ -24,5 +24,22 @@ Things you may want to cover:
 * ...
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+doc
+
+link to spec
+
+json api AMS
+
+rails-api
+
+postgres
+
+rvm files
+
+next steps
+  testing
+  add status to projects so they can be saved, in draft format
+    filter for the index
+  write endpoints
+  write spec in swagger
+  ProjectImage and ProjectComponentImage are the same, shouldn't be 2 separate models
