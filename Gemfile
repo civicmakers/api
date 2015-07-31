@@ -10,8 +10,12 @@ gem 'spring', :group => :development
 
 gem 'pg'
 
-gem 'active_model_serializers', '0.9.3'
+gem 'active_model_serializers', '0.10.0.rc2'
 
+
+group :test do
+  gem 'rspec'
+end
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
