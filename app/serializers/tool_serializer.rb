@@ -1,6 +1,8 @@
 class ToolSerializer < ActiveModel::Serializer
-  
+
   attributes :name, :description, :url, :social_links
+
+  belongs_to :profile
 
   def social_links
     {
