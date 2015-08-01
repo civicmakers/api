@@ -1,3 +1,5 @@
+Using JSON API 1.0 (http://jsonapi.org/)
+
 GET /profiles
 
 {
