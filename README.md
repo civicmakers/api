@@ -30,6 +30,8 @@ Push to the civicmakers-api Heroku app.
   * Also, a filter needs to be added like this: GET /projects?status=published
 * Of the CRUD operations, only the R endpoints have been implemented. So Create, Update & Destroy are still to be done.
   * See http://jsonapi.org/format/#crud
+  * We need user authentication at this point
+    * Use https://github.com/plataformatec/devise
 * Write the spec in Swagger
   * http://swagger.io/
 * Currently we have two models, ProjectImage and ProjectComponentImage, that are the same data wise, and only differ because of their relationships. Merge these into 1 model.
