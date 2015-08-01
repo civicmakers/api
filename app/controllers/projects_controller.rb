@@ -5,4 +5,9 @@ class ProjectsController < ApplicationController
     render json: @projects, include: params[:include]
   end
 
+  def show
+    @project = Project.find(params[:id])
+    render json: @project, include: params[:include]
+  end
+
 end
