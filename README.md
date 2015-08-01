@@ -35,6 +35,7 @@ Push to the civicmakers-api Heroku app.
   * We need user authentication at this point
     * Use https://github.com/plataformatec/devise
 * At this point we can switch from using hard-coded JSON to using the API
+* Add model validations
 * Add tests
 * Write the spec in Swagger
   * http://swagger.io/
