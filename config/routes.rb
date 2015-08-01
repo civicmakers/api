@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  resources :tools, only: [:index]
+  resources :tools, only: [:index, :show]
 
   resources :profiles, only: [:index]
 
