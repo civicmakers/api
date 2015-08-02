@@ -30,6 +30,7 @@ Push to the civicmakers-api Heroku app.
 * Add a `project.status` attribute, so that users can save their in-progress work before they are ready for it to become public
   * This will have to be added to the spec as well
   * Also, a filter needs to be added like this: GET /projects?status=published
+* Rename `profile` to `user`, both in the code and in the API spec
 * Of the CRUD operations, only the R endpoints have been implemented. So Create, Update & Destroy are still to be done.
   * See http://jsonapi.org/format/#crud
   * We need user authentication at this point
