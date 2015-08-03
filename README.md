@@ -4,6 +4,10 @@ This is the API that supports the [Web Client](https://github.com/civicmakers/cl
 
 See the [Spec](https://github.com/civicmakers/api/blob/master/spec).
 
+Ruby 2.2.2.
+Rails 4.2.3.
+Postgres.
+
 # Setup Steps
 
 * Install RVM
@@ -36,6 +40,7 @@ Push to the civicmakers-api Heroku app.
   * We need user authentication at this point
     * Use https://github.com/plataformatec/devise
 * At this point we can switch from using hard-coded JSON to using the API
+* The Gemfile has `gem 'rails', '4.2.3'`, which I'm not sure should be there because we're using rails-api. Investigate.
 * Add model validations
 * Add tests
 * Write the spec in Swagger
